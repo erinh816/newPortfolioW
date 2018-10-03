@@ -24,6 +24,22 @@ body
   margin: 10px;
   padding: 0 20px;
   font: bold 20px/40px Arial, sans-serif;
+  border: 2px solid white;
+  border-radius: 12px;
+  background-color:transparent;
+  color:white;
+}
+
+.btn2 {
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+  padding: 0 20px;
+  font: bold 20px/40px Arial, sans-serif;
+  border: 2px solid #D89E9A;
+  border-radius: 12px;
+  background-color:transparent;
+  color:#D89E9A;
 }
 
 .display-4{
