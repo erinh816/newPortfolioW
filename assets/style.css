@@ -75,7 +75,10 @@ body
   width:100%;
   color:#D89E9A;
   padding-left:10%;
+  
 }
+
+
 
 .contactinfo{
   padding-top:7%;
@@ -99,18 +102,20 @@ body
 .thirdpic{
  height:100%;
  width:100%;
+ /* position:fixed; */
 
 }
 
-#fourthpage{
+#fifthpage{
   /* display:block; */
-  overflow: hidden;
-  background-color:#D89E9A;
+  /* overflow: hidden; */
+  background-color:white;
   height:100%;
   width:100%;
-  padding:10%;
-  color:white;
+  /* padding:10%; */
+  color:#D89E9A;
   text-align: center;
+  padding-left:10%;
 }
 .card-text{
   color:#D89E9A;
@@ -125,28 +130,13 @@ body
   padding-left:10%;
 }
 
-#fifth{
-  display:block;
-  /* overflow: hidden; */
-  background-color: white;
-  height:100%;
-  width:100%;
-  color:#D89E9A;
-}
-
-  #sixth{
+#sixth{
   display:block;
   /* overflow: hidden; */
   background-color: #D89E9A;
   height:100%;
   width:100%;
   color:white;
-}
-.project2{
-  height:80%;
-  width:44%;
-  padding-top:10%;
-  padding-left:10%;
 }
 
   #seventh{
@@ -156,6 +146,21 @@ body
   height:100%;
   width:100%;
   color:#D89E9A;
+}
+.project2{
+  height:80%;
+  width:44%;
+  padding-top:10%;
+  padding-left:10%;
+}
+
+  #eighth{
+  display:block;
+  /* overflow: hidden; */
+  background-color: #D89E9A;
+  height:100%;
+  width:100%;
+  color:white;
   /* text-align:left; */
 }
 .project3{
@@ -168,3 +173,25 @@ body
 /* img{
   border-radius: 50%;
 } */
+
+.eye{
+  height:50px;
+  width:50px;
+  padding:0;
+}
+
+#fourth{
+  display:block;
+  /* overflow: hidden; */
+  background-color: #D89E9A;
+  height:100%;
+  width:100%;
+  
+  /* text-align:left; */
+}
+
+.eyegif{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}
