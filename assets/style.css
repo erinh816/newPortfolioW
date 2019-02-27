@@ -24,10 +24,10 @@ body
   margin: 10px;
   padding: 0 20px;
   font: bold 20px/40px Arial, sans-serif;
-  border: 2px solid white;
+  border: 2px solid #D89E9A;
   border-radius: 12px;
   background-color:transparent;
-  color:white;
+  color:#D89E9A;
 }
 
 .btn2 {
@@ -36,10 +36,10 @@ body
   margin: 10px;
   padding: 0 20px;
   font: bold 20px/40px Arial, sans-serif;
-  border: 2px solid #D89E9A;
+  border: 2px solid white;
   border-radius: 12px;
   background-color:transparent;
-  color:#D89E9A;
+  color:white;
 }
 
 .display-4{
@@ -191,7 +191,28 @@ body
 }
 
 .eyegif{
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left:40%;
+ margin-top:10%;
+}
+
+.ultra{
+  height:150px;
+  width:190px;
+  margin-left:-100px;
+  
+  
+}
+
+.edc{
+  height:150px;
+  width:230px;
+}
+
+.ezoo{
+  height:150px;
+  width:200px;
+}
+
+.fest{
+margin:50px;
 }
