@@ -5,6 +5,7 @@
     crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Text+Me+One|Baloo+Bhai" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates|Saira+Stencil+One" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
@@ -44,7 +45,7 @@
           </li>
           <li class="nav-item">
             <a href="#fourth">
-              <img class="eye" src="assets/eye.png"> </a>
+              <img class="eye rotate" src="assets/eye.png"> </a>
 
 
           </li>
@@ -71,16 +72,17 @@
     <img src="assets/background4.gif" class="rounded secondpic float-left" alt="secondpagepic">
 
     <div id="about">
-      <h1>ABOUT</h1>
-      <h2>Coding is the Journey</h2>
-      <p>Full-stack web developing student at Columbia Coding Bootcamp.
-        <br>Skills: html, css, JavaScript, node.js, SQL, Python</p>
+      <h1 id='abouthead'>ABOUT</h1>
+      <h2 id='abouthead'>Coding is the Journey</h2>
+      <p id='allp'>Full-stack web developing student at Columbia Coding Bootcamp.
+        <br>Skills: HTML/CSS, JavaScript, Node.js, Express.js, SQL, React.js,
+        <br>React Native, MongoDB, Expo, Python, Angular</p>
       <!-- <input type="button" value="Contact" class="btn btn-outline-light" onclick="window.location.href='#thirdpage'" /> -->
       <a href="#thirdpage">
-        <button type="button" class="btn">Contact</button>
+        <button type="button" class="btn2">Contact</button>
       </a>
       <a href="https://www.linkedin.com/in/silu-hu-315a7b83/">
-        <button type="button" class="btn">Linkedin</button>
+        <button type="button" class="btn2">Linkedin</button>
       </a>
       <a href="https://github.com/erinh816">
         <button type="button" class="btn2">GitHub</button>
@@ -94,7 +96,7 @@
     <div class="container1">
       <div class="row">
         <div class="col-lg-6 contactinfo">
-          <h1>CONTACT</h1>
+          <h1 id='abouthead'>CONTACT</h1>
           <p id="basiccontact">New York, NY, USA
             <br>
             <br>erinh816@gmail.com
@@ -140,7 +142,7 @@
 
   <!-- fifth page div -->
   <div id="fifthpage">
-    <h1 style="margin-bottom:40px;">PROJECTS</h1>
+    <h1 style="margin-bottom:40px;" id='abouthead'>PROJECTS</h1>
     <p>Scroll down for more information</p>
 
     <div class="container2">
@@ -185,8 +187,8 @@
     <img src="assets/Plur.png" class="rounded project1 float-left" alt="secondpagepic">
 
     <div id="about">
-      <h1>PLUR</h1>
-      <p>PLUR offers an platform where people can coordinate events,
+      <h1 id='abouthead'>PLUR</h1>
+      <p id='allp'>PLUR offers an platform where people can coordinate events,
         <br> arrange ticket purchase, plan for dining, prepare for the weather
         <br> and most importantly share their love for all things EDM.
         <br> Join the community, and meet some new people!
@@ -197,9 +199,9 @@
         <button type="button" class="btn2">Contact</button>
       </a>
 
-      <img src="assets/ultra.png" class="fest ultra" alt="plurpic">
+      <!-- <img src="assets/ultra.png" class="fest ultra" alt="plurpic">
       <img src="assets/edc.png" class="fest edc" alt="plurpic">
-      <img src="assets/ezoo.gif" class="fest ezoo" alt="plurpic">
+      <img src="assets/ezoo.gif" class="fest ezoo" alt="plurpic"> -->
     </div>
   </div>
   <!-- sixth page div -->
@@ -209,8 +211,8 @@
     <img src="assets/trivia.gif" class="sixthpic rounded project2 float-left" alt="secondpagepic">
 
     <div id="about">
-      <h1>TRIVIA</h1>
-      <p>A fun EDM trivia game.
+      <h1 id='abouthead'>TRIVIA</h1>
+      <p id='allp'>A fun EDM trivia game.
         <br> This website will be added to PLUR to make the EDM event website more fun. </p>
       <!-- <input type="button" value="Contact" class="btn btn-outline-light" onclick="window.location.href='#thirdpage'" /> -->
       <a href="#thirdpage">
@@ -225,8 +227,8 @@
     <img src="assets/giphy.gif" class="rounded project3 float-left" alt="secondpagepic">
 
     <div id="about">
-      <h1>GIPHY</h1>
-      <p>A fun website full of DJ gifs using the GIPHY api
+      <h1 id='abouthead'>GIPHY</h1>
+      <p id='allp'>A fun website full of DJ gifs using the GIPHY api
         <br> When you click on a button, 10 images are retrieved from giphy and displayed on the page.
         <br> When you click on the image, the gif plays. When you click again, the gif stops playing.
         <br> You can add a new button from the form on the right side of the page.</p>
