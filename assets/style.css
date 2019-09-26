@@ -255,3 +255,19 @@ margin:50px;
 
 }
 
+@media(min-width:400px){
+  .col-lg-4{
+    width:25%;
+  }
+
+}
+/* want it to be bigger when screen bigger */
+/* 
+@media(min-width:800px){
+  
+  .col-lg-4{
+    width:40%;
+  }
+
+} */
+
