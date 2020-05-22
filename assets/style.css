@@ -1,265 +1,253 @@
-body
-.navbar{
-  padding:16px;
-  /* how to change background color */
+body .navbar {
+	padding: 16px;
+	/* how to change background color */
 }
-.nav-link{
-  color:black !important;
-  font-size:20px;
-  font-family: 'Text Me One'; 
+.nav-link {
+	color: black !important;
+	font-size: 20px;
+	font-family: 'Text Me One';
 }
 .rotate {
-  animation: rotation 8s infinite linear;
+	animation: rotation 8s infinite linear;
 }
 
 @keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+	}
 }
 
 .jumbotron {
-  color: white;
-  width: 100%;
-  height: 100%;
-  padding-left:30%;
-  padding-top:15%;
-  margin:0;
+	color: white;
+	width: 100%;
+	height: 100%;
+	padding-left: 30%;
+	padding-top: 15%;
+	margin: 0;
 }
 
 .btn {
-  display: inline-block;
-  position: relative;
-  margin: 10px;
-  padding: 0 20px;
-  font: bold 20px/40px Arial, sans-serif;
-  border: 2px solid #D89E9A;
-  border-radius: 12px;
-  background-color:transparent;
-  color:#D89E9A;
+	display: inline-block;
+	position: relative;
+	margin: 10px;
+	padding: 0 20px;
+	font: bold 20px/40px Arial, sans-serif;
+	border: 2px solid #d89e9a;
+	border-radius: 12px;
+	background-color: transparent;
+	color: #d89e9a;
 }
 
 .btn2 {
-  display: inline-block;
-  position: relative;
-  margin: 10px;
-  padding: 0 20px;
-  font: bold 20px/40px Arial, sans-serif;
-  border: 2px solid white;
-  border-radius: 12px;
-  background-color:transparent;
-  color:white;
+	display: inline-block;
+	position: relative;
+	margin: 10px;
+	padding: 0 20px;
+	font: bold 20px/40px Arial, sans-serif;
+	border: 2px solid white;
+	border-radius: 12px;
+	background-color: transparent;
+	color: white;
 }
 
-.display-4{
-  font-size: 66px;
+.display-4 {
+	font-size: 66px;
 }
 
-.secondpic{
-  height:80%;
-  width:44%;
-  padding-top:10%;
-  padding-left:10%;
+.secondpic {
+	height: 80%;
+	width: 44%;
+	padding-top: 10%;
+	padding-left: 10%;
 }
 
-#secondpage{
-  display:block;
-  /* overflow: hidden; */
-  background-color: #D89E9A;
-  height:100%;
-  width:100%;
-  color:white;
+#secondpage {
+	display: block;
+	/* overflow: hidden; */
+	background-color: #d89e9a;
+	height: 100%;
+	width: 100%;
+	color: white;
 }
 
-#about{
-  padding-top:170px;
-  text-align:center;
+#about {
+	padding-top: 170px;
+	text-align: center;
 }
 
-#abouthead{
-
-  font-family: 'Saira Stencil One', cursive;
+#abouthead {
+	font-family: 'Saira Stencil One', cursive;
 }
 
-#allp{
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-weight: 900;
+#allp {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: 900;
 }
 
-#thirdpage{
-  display:block;
-  /* overflow: hidden; */
-  background-color:white;
-  height:100%;
-  width:100%;
-  color:#D89E9A;
-  padding-left:10%;
-  
+#thirdpage {
+	display: block;
+	/* overflow: hidden; */
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	color: #d89e9a;
+	padding-left: 10%;
 }
 
-
-
-.contactinfo{
-  padding-top:7%;
+.contactinfo {
+	padding-top: 7%;
 }
 
-#basiccontact{
-  color:grey;
-  padding:10px;
+#basiccontact {
+	color: grey;
+	padding: 10px;
 }
 
-.contactbtn{
-  color:white;
-  background-color:#D89E9A;
+.contactbtn {
+	color: white;
+	background-color: #d89e9a;
 }
 
-.container{
-  padding:20px;
+.container {
+	padding: 20px;
 }
 
-
-.thirdpic{
- height:100%;
- width:100%;
- /* position:fixed; */
-
+.thirdpic {
+	height: 100%;
+	width: 100%;
+	/* position:fixed; */
 }
 
-#fifthpage{
-  /* display:block; */
-  /* overflow: hidden; */
-  background-color:white;
-  height:100%;
-  width:100%;
-  /* padding:10%; */
-  color:#D89E9A;
-  text-align: center;
-  padding-left:10%;
+#fifthpage {
+	/* display:block; */
+	/* overflow: hidden; */
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	/* padding:10%; */
+	color: #d89e9a;
+	text-align: center;
+	padding-left: 10%;
 }
-.card-text{
-  color:#D89E9A;
-  font-size:20px;
-  font-family: "Baloo Bhai";
-}
-
-.project1{
-  height:80%;
-  width:44%;
-  padding-top:10%;
-  padding-left:10%;
+.card-text {
+	color: #d89e9a;
+	font-size: 20px;
+	font-family: "Baloo Bhai";
 }
 
-#sixth{
-  display:block;
-  /* overflow: hidden; */
-  background-color: #D89E9A;
-  height:100%;
-  width:100%;
-  color:white;
+.project1 {
+	height: 80%;
+	width: 44%;
+	padding-top: 10%;
+	padding-left: 10%;
 }
 
-  #seventh{
-  display:block;
-  /* overflow: hidden; */
-  background-color: white;
-  height:100%;
-  width:100%;
-  color:#D89E9A;
-}
-.project2{
-  height:80%;
-  width:44%;
-  padding-top:10%;
-  padding-left:10%;
+#sixth {
+	display: block;
+	/* overflow: hidden; */
+	background-color: #d89e9a;
+	height: 100%;
+	width: 100%;
+	color: white;
 }
 
-  #eighth{
-  display:block;
-  /* overflow: hidden; */
-  background-color: #D89E9A;
-  height:100%;
-  width:100%;
-  color:white;
-  /* text-align:left; */
+#seventh {
+	display: block;
+	/* overflow: hidden; */
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	color: #d89e9a;
 }
-.project3{
-  height:80%;
-  width:44%;
-  padding-top:10%;
-  padding-left:10%;
+.project2 {
+	height: 80%;
+	width: 44%;
+	padding-top: 10%;
+	padding-left: 10%;
+}
+
+#eighth {
+	display: block;
+	/* overflow: hidden; */
+	background-color: #d89e9a;
+	height: 100%;
+	width: 100%;
+	color: white;
+	/* text-align:left; */
+}
+.project3 {
+	height: 80%;
+	width: 44%;
+	padding-top: 10%;
+	padding-left: 10%;
 }
 
 /* img{
   border-radius: 50%;
 } */
 
-.eye{
-  height:50px;
-  width:50px;
-  padding:0;
+.eye {
+	height: 50px;
+	width: 50px;
+	padding: 0;
 }
 
-#fourth{
-  display:block;
-  /* overflow: hidden; */
-  background-color: #D89E9A;
-  height:100%;
-  width:100%;
-  
-  /* text-align:left; */
+#fourth {
+	display: block;
+	/* overflow: hidden; */
+	background-color: #d89e9a;
+	height: 100%;
+	width: 100%;
+
+	/* text-align:left; */
 }
 
-.eyegif{
-  margin-left:40%;
- margin-top:10%;
+.eyegif {
+	margin-left: 40%;
+	margin-top: 10%;
 }
 
-.ultra{
-  height:150px;
-  width:190px;
-  margin-left:-100px;
-  
-  
+.ultra {
+	height: 150px;
+	width: 190px;
+	margin-left: -100px;
 }
 
-.edc{
-  height:150px;
-  width:230px;
+.edc {
+	height: 150px;
+	width: 230px;
 }
 
-.ezoo{
-  height:150px;
-  width:200px;
+.ezoo {
+	height: 150px;
+	width: 200px;
 }
 
-.fest{
-margin:50px;
+.fest {
+	margin: 50px;
 }
 
-#nineth{
-  
-    /* text-align:center; */
-    /* position:absolute;  */
-    top:2em;
-    left:4em; 
-    font-family:'Monsterrat';
-    font-size:7em;
-    text-transform:uppercase;
-    width:auto;
-    line-height:.9em;
-    border:5px solid black;
-    padding:.2em;
-
+#nineth {
+	/* text-align:center; */
+	/* position:absolute;  */
+	top: 2em;
+	left: 4em;
+	font-family: 'Monsterrat';
+	font-size: 7em;
+	text-transform: uppercase;
+	width: auto;
+	line-height: .9em;
+	border: 5px solid black;
+	padding: .2em;
 }
 
-@media(min-width:400px){
-  .col-lg-4{
-    width:25%;
-  }
-
+@media (min-width: 400px) {
+	.col-lg-4 {
+		width: 25%;
+	}
 }
 /* want it to be bigger when screen bigger */
 /* 
@@ -271,3 +259,63 @@ margin:50px;
 
 } */
 
+body {
+	margin: 0;
+	/* padding: 0; */
+}
+canvas {
+	display: block;
+	vertical-align: bottom;
+}
+/* ---- particles.js container ---- */
+
+#particles-js {
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+
+.count-particles {
+	background: #000022;
+	position: absolute;
+	top: 48px;
+	left: 0;
+	width: 80px;
+	color: #13e8e9;
+	font-size: .8em;
+	text-align: left;
+	text-indent: 4px;
+	line-height: 14px;
+	padding-bottom: 2px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+.js-count-particles {
+	font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+	-webkit-user-select: none;
+}
+
+#stats {
+	border-radius: 3px 3px 0 0;
+	overflow: hidden;
+}
+
+.count-particles {
+	border-radius: 0 0 3px 3px;
+}
